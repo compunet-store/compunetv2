@@ -1,8 +1,12 @@
-var express = require('express')
-var app = express()
+let express = require('express')
+let app = express()
+let ejs = require("ejs")
+ 
+app.set('view engine','ejs')
+
 
 app.get('/', function (req, res) {
-  res.send('hello world')
+  res.render('index')
 })
 
 app.listen(3000)
