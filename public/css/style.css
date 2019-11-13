@@ -91,114 +91,6 @@ p {
     text-transform: capitalize;
 }
 
-.bg-image-1 {
-    background-image: url(img/slider/s1.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-.bg-image-2 {
-    background-image: url(img/slider/s2.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-.bg-image-3 {
-    background-image: url(img/slider/s3.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-.popup_wrapper {
-    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
-    height: 100%;
-    opacity: 0;
-    position: fixed;
-    -webkit-transition: all 0.5s ease 0s;
-    transition: all 0.5s ease 0s;
-    visibility: hidden;
-    width: 100%;
-    z-index: 9999999;
-}
-
-.test {
-    background: #ffffff none repeat scroll 0 0;
-    bottom: 0;
-    height: 390px;
-    left: 0;
-    margin: auto;
-    max-width: 790px;
-    padding: 25px 50px;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.popup_off {
-    background: #666666 none repeat scroll 0 0;
-    border: 1px solid #ffffff;
-    color: #ffffff;
-    cursor: pointer;
-    display: block;
-    font-size: 11px;
-    font-weight: 500;
-    height: 25px;
-    line-height: 25px;
-    position: absolute;
-    right: 0;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    top: -26px;
-    -webkit-transition: all 0.3s ease-in 0s;
-    transition: all 0.3s ease-in 0s;
-    width: 75px;
-}
-
-.popup_off:hover {
-    background: #1a1a1a none repeat scroll 0 0;
-}
-
-.subscribe-form-group {
-    margin-top: 15px;
-}
-
-.subscribe-form-group input {
-    background: #eaeaea none repeat scroll 0 0;
-    border: 0 none;
-    color: #333;
-    height: 40px;
-    padding: 0 15px;
-    width: 380px;
-}
-
-.subscribe-bottom label {
-    font-size: 16px;
-    margin: 0;
-    vertical-align: middle;
-}
-
-.subscribe-bottom input {
-    vertical-align: middle;
-}
-
-.subscribe-form-group button {
-    background: #0438a1 none repeat scroll 0 0;
-    border: 0 none;
-    color: #fff;
-    display: block;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 38px;
-    margin: 20px auto;
-    padding: 2px 20px 0;
-    text-transform: uppercase;
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
-}
-
 .header-top {
     padding: 50px 0;
 }
@@ -1124,10 +1016,6 @@ p {
     color: #fff;
 }
 
-/*----------------------------------------*/
-/* 9. Blog & Blog Details CSS
-/*----------------------------------------*/
-
 .blog-area .row [class*="col-"] {
     margin-bottom: 40px;
 }
@@ -1339,10 +1227,6 @@ p {
     padding-left: 20px;
 }
 
-.submit-review .login-btn {
-    margin-bottom: 0;
-}
-
 .details-meta {
     margin-bottom: 30px;
 }
@@ -1352,19 +1236,6 @@ p {
     margin-bottom: 30px;
     margin-top: 13px;
     padding-bottom: 15px;
-}
-
-.blogquote.blockquote {
-    background: #f1f1f1 none repeat scroll 0 0;
-    margin: 40px 0;
-    padding: 45px;
-    border-left: 3px solid #0438a1;
-}
-
-.blogquote.blockquote p {
-    font-size: 18px;
-    line-height: 30px;
-    padding-bottom: 10px;
 }
 
 .blockquote-footer {
@@ -2673,9 +2544,6 @@ p.lost-password a:hover {
     margin-bottom: 20px;
     padding: 20px;
 }
-
-.coupon-info {}
-
 .coupon-info p.coupon-text {
     margin-bottom: 15px
 }
@@ -2804,7 +2672,7 @@ p.checkout-coupon input[type="submit"] {
     font-size: 16px;
 }
 
-.checkout-form-list label span.required {}
+
 
 .checkout-form-list input[type="text"],
 .checkout-form-list input[type="password"],
@@ -2824,7 +2692,7 @@ p.checkout-coupon input[type="submit"] {
     line-height: 40px;
 }
 
-.checkout-form-list {}
+
 
 .checkout-form-list input[type="checkbox"] {
     display: inline-block;
@@ -2840,11 +2708,8 @@ p.checkout-coupon input[type="submit"] {
     display: inline-block;
 }
 
-.checkout-form-list input[type=password] {}
 
-.create-accounts {
-    display: none
-}
+
 
 .ship-different-title h3 label {
     display: inline-block;
@@ -2947,8 +2812,6 @@ p.checkout-coupon input[type="submit"] {
     font-weight: 600;
 }
 
-.your-order-table table {}
-
 .payment-method {
     margin-top: 40px;
 }
@@ -2957,7 +2820,6 @@ p.checkout-coupon input[type="submit"] {
     line-height: 1;
 }
 
-.payment-accordion {}
 
 .payment-accordion h3 {
     border-bottom: 0 none;
@@ -2977,8 +2839,6 @@ p.checkout-coupon input[type="submit"] {
 .payment-accordion h3.open a:after {
     content: "\f056";
 }
-
-.payment-content {}
 
 .payment-content p {
     font-size: 13px;
@@ -3045,8 +2905,6 @@ p.checkout-coupon input[type="submit"] {
 .cart-title-area {
     padding-top: 30px;
 }
-
-.car-header-title {}
 
 .car-header-title h2 {
     font-size: 20px;
@@ -3212,9 +3070,6 @@ p.checkout-coupon input[type="submit"] {
     float: left;
     height: 40px;
 }
-
-.coupon input[type=submit] {}
-
 .cart_totals {
     width: 100%;
 }
@@ -3278,8 +3133,6 @@ p.checkout-coupon input[type="submit"] {
     position: relative;
     top: 2px;
 }
-
-.cart_totals table {}
 
 a.shipping-calculator-button {
     font-weight: bold;
@@ -3353,8 +3206,6 @@ a.shipping-calculator-button:hover {
     width: 240px;
 }
 
-.
-
 .single-team:hover .team-link {
     opacity: 1;
     top: 50%;
@@ -3398,27 +3249,12 @@ a.shipping-calculator-button:hover {
     border-right: 1px solid #ebebeb;
 }
 
-.user-name {
-    position: relative;
-    padding-left: 25px;
-}
-
 .view,
 .view-cart {
     background: #0438a1 none repeat scroll 0 0;
     color: #fff;
     padding: 5px 12px;
     text-transform: capitalize;
-}
-
-.user-name::before {
-    color: #555;
-    content: "";
-    font-family: FontAwesome;
-    font-size: 18px;
-    left: 0;
-    position: absolute;
-    top: 0;
 }
 
 .account-dashboard p {
@@ -3432,12 +3268,6 @@ a.shipping-calculator-button:hover {
 .view-cart {
     display: inline-block;
     text-transform: capitalize;
-}
-
-.user-name span {
-    color: #303030;
-    font-size: 15px;
-    font-weight: 500;
 }
 
 .dashboard-list li:not(:last-child) a {
@@ -3562,42 +3392,6 @@ a.shipping-calculator-button:hover {
     box-shadow: none;
 }
 
-.login-form .form-check label {
-    font-size: 15px;
-}
-
-.login-form .form-control,
-.login-form .custom-radio,
-.login-form span {
-    height: 35px;
-    padding-top: 5px;
-}
-
-.login-form .form-control {
-    font-size: 15px;
-}
-.login-footer p a {
-    color: #303030;
-}
-
-.login-footer p,
-.login-footer a {
-    color: #444;
-    display: inline-block;
-}
-
-.login-details a:hover {
-    color: #0438a1;
-}
-
-.login-footer p a:hover {
-    color: #0438a1;
-}
-
-.login-footer.text-center {
-    border-top: 1px solid #ebebeb;
-    padding-top: 20px;
-}
 
 .show-btn {
     background: #333 none repeat scroll 0 0;
@@ -3616,8 +3410,6 @@ a.shipping-calculator-button:hover {
 .show-btn:hover {
     background: #303030;
 }
-
-
 
 .password-forgot legend {
     border-bottom: 1px solid #ededed;
@@ -3710,24 +3502,4 @@ a.shipping-calculator-button:hover {
 
 #search-form button:hover {
     color: #0438a1;
-}
-
-.error-button a {
-    background: #0438a1 none repeat scroll 0 0;
-    border-radius: 35px;
-    color: #ffffff;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    line-height: 40px;
-    margin-top: 40px;
-    padding: 1px 30px 0;
-    text-transform: uppercase;
-    -webkit-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
-}
-
-.error-button a:hover {
-    background: #303030;
 }
