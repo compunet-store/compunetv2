@@ -5,7 +5,6 @@ let path = require('path')
 var indexRouter = require('./routes/index');
 var productsRouter = require('./routes/products');
 
-
 app.set('views', path.join(__dirname, 'views'))
 app.engine('.hbs', exphbs({
     defaultLayout: 'main',
@@ -20,4 +19,6 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.use('/', indexRouter);
 app.use('/products', productsRouter);
 
-app.listen(3000)
+app.listen(3000, () => {
+  console.log("sever start in localhost:3000")
+})
