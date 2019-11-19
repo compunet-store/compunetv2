@@ -18,7 +18,9 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 app.use('/', indexRouter);
 app.use('/products', productsRouter);
+app.use('/admin/', require('./routes/admin/index'));
 app.use('/admin/products', require('./routes/admin/products'));
+app.use('/admin/marcas', require('./routes/admin/marcas'));
 
 
 app.listen(3000, () => {
