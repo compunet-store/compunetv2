@@ -18,6 +18,8 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 app.use('/', indexRouter);
 app.use('/products', productsRouter);
+app.use('/admin/products', require('./routes/admin/products'));
+
 
 app.listen(3000, () => {
   console.log("sever start in localhost:3000")
