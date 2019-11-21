@@ -21,6 +21,9 @@ app.use('/products', productsRouter);
 app.use('/admin/', require('./routes/admin/index'));
 app.use('/admin/products', require('./routes/admin/products'));
 app.use('/admin/marcas', require('./routes/admin/marcas'));
+app.use('/admin/pedidos', require('./routes/admin/pedidos'));
+app.use('/admin/categorias', require('./routes/admin/categorias'));
+app.use('/admin/inventario', require('./routes/admin/inventario'));
 
 
 app.listen(3000, () => {
