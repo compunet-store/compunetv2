@@ -24,6 +24,7 @@ app.use('/admin/marcas', require('./routes/admin/marcas'));
 app.use('/admin/pedidos', require('./routes/admin/pedidos'));
 app.use('/admin/categorias', require('./routes/admin/categorias'));
 app.use('/admin/inventario', require('./routes/admin/inventario'));
+app.use('/admin/empleadosyproovedores', require('./routes/admin/empleadosyproovedores'));
 
 
 app.listen(3000, () => {
